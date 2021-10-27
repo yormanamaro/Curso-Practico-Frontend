@@ -159,3 +159,37 @@ body {
   font-weight: bold;
   height: 50px;
 }
+
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+
+.title-account {
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.from div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 640px) {
+  .form-continer {
+    height: 100%;
+  }
+
+  .form {
+    height: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
