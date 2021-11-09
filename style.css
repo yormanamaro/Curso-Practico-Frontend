@@ -378,8 +378,8 @@ body {
 .order {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 16px 1fr;
-  grid-template-columns: auto 1fr;
+  -ms-grid-columns: auto 16px 1fr 16px auto;
+  grid-template-columns: auto 1fr auto;
   gap: 16px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -446,4 +446,16 @@ body {
 
 .shopping-cart figure {
   margin: 0;
+}
+
+.mis-ordenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 16px 1fr;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
 }

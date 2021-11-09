@@ -371,7 +371,7 @@ body
 .order
 {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     gap: 16px;
     align-items: center;
     background-color: var(--text-input-field);
@@ -426,6 +426,17 @@ body
 .shopping-cart figure
 {
     margin: 0;
+}
+
+// Comienza la parte del mis orden
+
+.mis-ordenes
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 14px;
 }
 
 
